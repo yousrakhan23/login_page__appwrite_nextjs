@@ -93,7 +93,9 @@ function LoginPage() {
 
         <button 
         type="button" 
-        onClick={() => login(email, password)}>
+        onClick={() => login(email, password)}
+        className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        
         Login
         </button>
 
